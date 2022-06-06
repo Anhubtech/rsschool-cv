@@ -1,0 +1,83 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration:none;
+    
+  }
+
+html
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background:  rgb(35, 37, 44);
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+a
+{
+     color: #FF9D80;
+}
+
+a:hover
+{
+    color: rgb(243, 131, 237);
+}
+
+li 
+{
+display: inline;
+}
+
+dt
+{
+    font-weight: bolder;
+    font-weight: 600;
+    padding-left: 5px;
+    
+}
+
+dd
+{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+figure
+{
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+menu
+{
+    padding: 10px;
+    margin-top: 40px;  
+}
+
+figcaption
+{
+    text-align: center;
+    margin-top: 50px;
+}
