@@ -1,0 +1,481 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* all */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration:none;
+  }
+
+html
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background:  rgb(35, 37, 44);
+}
+
+body
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+a
+{
+     color: #FF9D80;
+     position: relative;
+}
+
+a:hover
+{
+    color: #ED1157;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+} 
+
+li 
+{
+    display: inline;
+}
+
+dt
+{
+    font-weight: bolder;
+    font-weight: 600;
+    padding-left: 5px;  
+}
+
+dd
+{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+figure
+{
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+ menu
+{
+    padding: 10px;
+    margin-top: 10px;  
+} 
+
+figcaption
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Header plus nav */
+.nav
+{
+    padding-left: 320px;
+    padding-top: 10px;
+}
+
+.headerwrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.langtable
+{
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    margin-top: 40px;  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my
+{
+    display: flex;
+    flex-direction: row;
+}
+.my-txt
+{
+    width: 171px;
+    height: 84px;
+ 
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #8be722;
+}
+
+.my-pic 
+{
+    width: 120px;
+    height: 140px;
+    border-radius: 40px;
+}
+
+/* мэйн */
+.mainwrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+/* aside */
+
+.aside
+{
+    width: 100%;
+    height:100%;
+} 
+
+.aside-contact
+{
+    width: 215px;
+    height: 100%;
+    margin-top: 10px;
+    padding-top: 38px;
+}
+
+.aside-title
+{ 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    
+    color: #8be722;
+}
+
+.asidepic
+{ 
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;     
+}
+
+/* Main */
+
+.main-info
+{
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 20px;   
+    padding-top: 20px;  
+}
+
+/* Edu */
+
+.edu
+{
+    padding-left: 490px;
+}
+
+.edu-info
+{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.sgupic
+{
+    width: 30px;
+    height: 30px;
+}
+
+.edu-title
+{
+    text-align: center;
+    color:#e7e022; 
+}
+
+.edu-date
+{
+    color: #8be722; 
+}
+
+/* Lang */
+
+.langu
+{
+padding-left: 490px;
+}
+
+.langu-info
+{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.langu-title
+{
+    text-align: center;
+    color: #e7e022; 
+}
+
+.langu-date
+{
+    font-weight: 400;
+}
+
+.txtt
+{
+    color:#FF9D80;
+}
+
+
+.langpic
+{
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+}
+/* Work */
+
+.work
+{
+    padding-left: 490px;
+}
+
+.work-info
+{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.work-title
+{
+    color:#e7e022; 
+    text-align: center;  
+}
+
+.work-date
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    color: #8be722;   
+}
+.rzdpic
+{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px; 
+}
+/* Goal */
+
+.goal-title
+{
+    text-align: center;
+
+    color:#e7e022; 
+}
+
+.goal-info
+{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.goal
+{
+    padding-left: 490px; 
+}
+
+/* Code */
+
+.code-title
+{
+    text-align: center;
+    padding-top: 15px;
+
+    color:#ED1157;
+}
+
+.code
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.code-example
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    user-select: text;
+    width: fit-content;
+    font-size: 19px;
+
+    color:rgb(255, 255, 255);
+}
+
+
+/* Pro */
+
+.project-title
+{
+    text-align: left;
+    padding-top: 20px; 
+
+    color:#ED1157;
+}
+.project-desc
+{
+    text-align: left;
+    padding-top: 20px;
+    font-size: 15px;
+
+    color:rgb(255, 255, 255);
+}
+
+.project-img
+{
+   display: inline-block;
+   margin: 5px;
+   max-width: 320px;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+}
+
+.project-img * 
+{
+    box-sizing: border-box;
+    transition: all 0.50s ease;
+}
+  
+  .project-img:before,
+  .project-img:after 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.5s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(3);
+
+    background-color: rgba(255, 0, 191, 0.349);
+}
+  
+  .project-img img 
+{
+    max-width: 100%;
+}
+  
+  .project-img figcaption
+{
+    font-size: 28px;
+    font-family:'Manrope', sans-serif ;
+    font-weight: 400;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    z-index: 3;
+    transition-delay: 0.1s;
+}
+  
+  .project-img:hover:before,
+  .project-img:hover:after 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+  
+  .project-img:hover > img 
+{
+    opacity: 0.5;
+}
+  
+  .project-img:hover figcaption 
+{
+    opacity: 1;
+}
+
+/* Footer */
+
+.footerwrapper
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-update
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+
+    color:#e7e022; 
+}
+
+.footer-made
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.footer-rss
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.footer-top
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
